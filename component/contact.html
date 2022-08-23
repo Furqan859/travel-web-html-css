@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+         body{
+            margin: 0%;
+            padding: 0%;
+            background-color: whitesmoke;
+            
+        }
+        #main-header{
+            background:radial-gradient(circle, pink , red);
+           
+            padding: 10px;
+            text-align: center;
+              }
+              .nav-trip{
+            font-size: 18px;
+        color: white;
+        margin-right: 20px;
+        
+            }
+            .nav-about{
+                font-size: 18px;
+        color: white;
+        margin-right: 20px;
+            }
+            .nav-contact{
+                font-size: 18px;
+        color: white;
+            }
+
+            #input-wraper{
+                margin-top: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 80px;
+            background-color:white;
+            height: 280px;
+            width: 400px;
+            border: 1px solid black;
+
+             }
+        #btn-submit{
+            background-color: #14dd50;
+            padding-top: 12px;
+            padding-bottom: 12px;
+            padding-left: 24px;
+            padding-right:24px ;
+            font-size: 18px;
+            color: white;
+            border: none;
+        }
+      
+        #btn-submit:hover{
+            background-color: darkgreen;
+            
+        }
+        
+        .input-box{
+            font-size: 18px;
+            padding-bottom: 6px;
+            margin-bottom: 36px;
+            border-top: 0;
+            border-left:0;
+            border-right:0;
+            border-bottom: 1px solid black;
+            width: 100%;
+            text-transform: capitalize;
+            padding-top: 6px;
+            outline: none;
+            
+            
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <header id="main-header">
+        <nav>
+            <span ><a href="../index.html" class="nav-trip">Trip</a></span>
+            <span ><a href="./about.html" class="nav-about">About</a></span>
+            <span ><a href="./contact.html" class="nav-contact">Contact</a></span>
+        </nav>
+    </header>
+    <form id="input-wraper">
+        <div>
+            <input class="input-box" type="text" name="username" placeholder="Username" required>
+        </div>  
+        <div>
+         <input class="input-box" type="email" name="email" placeholder="email" required>
+     </div>
+     <div>
+         <input class="input-box" type="password" name="password" placeholder="password" required>
+     </div>
+     <div>
+         <input class="input-box" type="number" name="Number" min="0" placeholder="your number" required>
+     </div>
+     <input id="btn-submit" type="submit" value="Submit" name="submit">
+    </form>
+</body>
+</html>
